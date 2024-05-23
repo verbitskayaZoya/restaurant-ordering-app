@@ -10,3 +10,16 @@
 h1 {
     color: red;
 }
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.logoGroup {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 100%;
+    color: whitesmoke;
+}
