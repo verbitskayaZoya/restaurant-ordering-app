@@ -1,12 +1,24 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 }
 
+body {
+    max-width: 600px;
+    align-content: center;
+}
 
+header {
+    width: 100%;
+}
 
-/* just for a test */
-h1 {
-    color: red;
+.logoGroup {
+    color: whitesmoke;
+    
+    background-image: url('./assets/bg-img.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    padding: 41px 2rem;
 }
